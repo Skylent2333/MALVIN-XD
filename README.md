@@ -1,3 +1,29 @@
+# Zora AI
+
+Zora AI — rebuilt modular WhatsApp bot.
+
+Quick start:
+
+1. Copy your session ID:
+```
+npm run save-session-env "malvin~YOUR_SESSION_ID" 4915736937850
+```
+2. Start with env loaded:
+```
+npm run start:env
+```
+
+Files:
+- `src/` — bot core and commands
+- `setting.js` — legacy settings (owner number preserved)
+- `.env.example` — example env
+
+Commands
+- Prefix: `!` (e.g. `!ping`, `!help`)
+- Example commands included: `ping`, `help`, `owner`, `status`, `joke`, `download`, `groupinfo`, `antidelete`, `chatbot`, `savesession`
+- Additional placeholders implemented: `statussave`, `sendstatus`, `ai`, `viewonce`, `statusreply`, `statusreacts`, `heartreacts`, `autoreacts`, `callreject`, `sticker`, `tts`, `eval`, `restart`, `shutdown`
+
+
 
 
 
